@@ -1,5 +1,5 @@
 namespace WindTurbineAPI.Models;
-{
+
 public class WindTurbine
 {
     public int Id { get; set; } // Primary Key
@@ -9,7 +9,4 @@ public class WindTurbine
     public double Capacity { get; set; } // in MW
     public string Status { get; set; } = "Active"; // e.g., "Operational", "Maintenance" , "Offline
    
-}
-
-
 }
