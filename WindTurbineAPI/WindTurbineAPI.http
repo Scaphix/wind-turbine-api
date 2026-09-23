@@ -1,0 +1,6 @@
+@WindTurbineAPI_HostAddress = http://localhost:5062
+
+GET {{WindTurbineAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
