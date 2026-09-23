@@ -1,0 +1,76 @@
+# Build output
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.com
+*.dll.config
+
+# Visual Studio and VS Code user files
+.vs/
+*.user
+*.suo
+*.userosscache
+.vscode/*
+!.vscode/README.md
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+
+# Test and coverage output
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+*.dotCover
+
+# Visual Studio upgrade and publishing files
+UpgradeLog.XML
+_UpgradeReport_Files/
+*.Publish.xml
+
+# ReSharper
+_ReSharper.*/
+*.ReSharper.*
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+secrets.json
+
+# Local SQLite database files
+*.db
+*.db-shm
+*.db-wal
+
+# NuGet and generated package files
+*.nupkg
+*.snupkg
+packages/
+NuGet.exe
+
+# Archives and downloaded packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and local data
+*.log
+*.sqlite
+
+# OS files
+.DS_Store
+Thumbs.db
